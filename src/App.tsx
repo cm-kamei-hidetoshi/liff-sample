@@ -5,18 +5,20 @@ function App() {
 
     console.log(items)
 
-  return (
-      <div>
-        <h1>テスト</h1>
-          {items.map((value, index)=>{
-              return <div className={styles.content}>{index}</div>
-          })}
-        <div className={styles.footer}>フッター</div>
+    return (
+        <div className={styles.root}>
+            <h1>ヘッダー</h1>
+            <div className={styles.content}>
+                {items.map((value, index) => {
+                    return <div className={styles.item}>{index}</div>
+                })}
+            </div>
+            <div className={styles.footer}>フッター</div>
 
-      </div>
+        </div>
 
 
-  )
+    )
 }
 
 export default App

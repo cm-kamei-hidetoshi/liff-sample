@@ -1,12 +1,26 @@
 .root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
 .footer {
     height: 60px;
-    position: fixed;
-    bottom: 0;
     background: #039be5;
     width: 100%;
 }
+
+
+.header {
+    height: 60px;
+}
+
 .content {
+    flex: 1;
+    overflow: auto;
+}
+
+.item {
     height: 300px;
 }

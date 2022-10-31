@@ -1,0 +1,12 @@
+.root {
+}
+.footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background: #039be5;
+    width: 100%;
+}
+.content {
+    height: 300px;
+}
